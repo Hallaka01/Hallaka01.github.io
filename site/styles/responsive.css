@@ -21,7 +21,6 @@
   .wordmark { font-size: 13px; }
   .site-nav { width: 100%; justify-content: flex-start; gap: 24px; flex-wrap: wrap; }
   .site-nav > a { font-size: 12px; }
-  .site-nav .nav-github { padding-inline: 15px; }
   .js .menu-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); background: rgb(10 15 28 / 70%); font: 11px/1.4 var(--mono); }
   .menu-icon { width: 13px; height: 8px; border-block: 1px solid currentColor; }
   .js .site-nav { display: none; padding-top: 12px; border-top: 1px solid var(--line); }
@@ -60,8 +59,6 @@
   .project-hsmw .project-copy { padding: 30px 25px; }
   .about-section { grid-template-columns: 1fr; gap: 30px; padding-block: 65px; }
   .about-copy > p { font-size: 15px; }
-  .connect-section { padding-block: 45px 75px; text-align: left; }
-  .connect-section .button { margin-top: 25px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 12px; padding-block: 25px; }
   .site-footer > a:last-child { min-height: 35px; display: flex; align-items: center; }
 }

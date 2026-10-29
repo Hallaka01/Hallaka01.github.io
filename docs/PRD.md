@@ -2,13 +2,15 @@
 
 ## Purpose
 
-Give Finn // Hallaka a personal portfolio with the full-page cyberpunk atmosphere that GitHub profiles cannot provide. Publish at https://hallaka01.github.io and link it from the existing GitHub profile.
+Give Finn // Hallaka a personal portfolio with the full-page cyberpunk atmosphere that GitHub profiles cannot provide. Publish at https://hallaka01.github.io. The GitHub profile README is a single clickable banner; the portfolio contains the introduction, projects, and toolbox.
 
 ## Visitor experience
 
 1. Meet Finn through a short English introduction over an original cyan and magenta city background.
 2. Explore the YGO Scanner showcase and Finn's frontend contributions to HSMWmobil.
-3. Read a short toolbox and follow the public GitHub links.
+3. Read a short toolbox and follow direct project resources for screenshots, examples, or the HSMWmobil team.
+
+The website is the main presentation destination. Avoid generic calls to return to the GitHub profile; repository links should lead to a specific resource.
 
 ## Scope
 
