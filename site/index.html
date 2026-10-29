@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#090d18">
+  <title>Finn // Hallaka — Mobile apps &amp; everyday ideas</title>
+  <meta name="description" content="Media Informatics student building Flutter and native iOS apps. Explore YGO Scanner, HSMWmobil contributions, and the ideas behind them.">
+  <meta property="og:title" content="Finn // Hallaka — Neon City">
+  <meta property="og:description" content="Mobile apps. Personal projects. Always exploring.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hallaka01.github.io/">
+  <meta property="og:image" content="https://hallaka01.github.io/assets/social-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://hallaka01.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" as="image" href="assets/neon-city.png">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="city-background" aria-hidden="true"></div>
+  <div class="city-shade" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Finn Hallaka, home">FINN <span>//</span> HALLAKA<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-icon" aria-hidden="true"></span><span>Menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="nav-github" href="https://github.com/Hallaka01" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal-dot" aria-hidden="true"></span> A LITTLE CURIOSITY. A LOT OF BUILDING.</p>
+        <h1 id="hero-title">Everyday ideas.<br><span>Real apps.</span></h1>
+        <p class="hero-intro">I'm Finn, a Media Informatics student at HSMW.<br>I build mobile apps with Flutter and SwiftUI.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="https://github.com/Hallaka01" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-footnote">
+        <span>FLUTTER <b>/</b> NATIVE iOS <b>/</b> PERSONAL PROJECTS</span>
+        <a href="#work"><span class="scroll-line" aria-hidden="true"></span> SCROLL TO EXPLORE</a>
+      </div>
+      <span class="city-caption" aria-hidden="true">AFTER DARK // STILL CURIOUS</span>
+    </section>
+
+    <section id="work" class="work-section section-shell" aria-labelledby="work-title">
+      <div class="section-heading" data-reveal>
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Ideas with a purpose.</h2></div>
+        <p>Things I build.<br>And things I help make better.</p>
+      </div>
+
+      <article class="project project-ygo" data-reveal aria-labelledby="ygo-title">
+        <div class="project-copy">
+          <p class="project-kicker">PERSONAL PROJECT <span>/</span> NATIVE iOS</p>
+          <h3 id="ygo-title">YGO Scanner<span class="accent-dot">.</span></h3>
+          <p>From a pile of cards to a collection that makes sense.</p>
+          <p class="project-description">Scan cards, keep track of physical copies, and plan decks around the cards you actually own.</p>
+          <ul class="tag-list" aria-label="YGO Scanner technologies">
+            <li>SwiftUI</li><li>SwiftData</li><li>Vision</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Hallaka01/ygo-scanner-showcase" target="_blank" rel="noopener noreferrer">Explore the showcase <span aria-hidden="true">↗</span></a>
+        </div>
+        <figure class="project-visual">
+          <div class="phone-shots">
+            <img class="phone-shot phone-collection" src="assets/collection.png" alt="YGO Scanner's purple and gold collection gallery with fictional demo cards" width="1206" height="2622" loading="lazy" decoding="async">
+            <img class="phone-shot phone-scanner" src="assets/scanner.png" alt="The scanner interface with a simulated passcode preview and a batch of pending cards" width="1206" height="2622" loading="lazy" decoding="async">
+          </div>
+          <figcaption>Fictional demo cards. Simulated camera preview.</figcaption>
+        </figure>
+      </article>
+
+      <article class="project project-hsmw" data-reveal aria-labelledby="hsmw-title">
+        <div class="hsmw-mark" aria-hidden="true"><span>HSMW</span><span>mobil<span class="accent-dot">_</span></span></div>
+        <div class="project-copy">
+          <p class="project-kicker">TEAM CONTRIBUTIONS <span>/</span> FLUTTER</p>
+          <h3 id="hsmw-title">Built by students.<br>Used on campus.</h3>
+          <p class="project-description">I contribute to the frontend of HSMWmobil, a Flutter app for students and university staff. Working on something people at my university actually use makes the details matter.</p>
+          <a class="text-link" href="https://github.com/HSMWmobil" target="_blank" rel="noopener noreferrer">Meet HSMWmobil <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="about-section section-shell" aria-labelledby="about-title">
+      <div class="about-heading" data-reveal>
+        <p class="eyebrow">02 / THE PERSON BEHIND THE PROJECTS</p>
+        <h2 id="about-title">Hi, I'm Finn<span class="accent-dot">.</span><br>Always exploring.</h2>
+      </div>
+      <div class="about-copy" data-reveal>
+        <p>I study Media Informatics at HSMW and enjoy turning everyday ideas into useful apps. Most of my time goes into Flutter, with native iOS projects on the side.</p>
+        <div class="toolbox">
+          <h3>My toolbox</h3>
+          <ul class="tag-list" aria-label="Technologies I work with"><li>Flutter</li><li>Dart</li><li>SwiftUI</li><li>SwiftData</li></ul>
+        </div>
+        <p class="learning-note"><span aria-hidden="true">↳</span> Currently exploring APIs and app integrations.</p>
+      </div>
+    </section>
+
+    <section class="connect-section section-shell" aria-labelledby="connect-title" data-reveal>
+      <p class="eyebrow">03 / KEEP EXPLORING</p>
+      <h2 id="connect-title">See what I'm building next.</h2>
+      <a class="button button-primary" href="https://github.com/Hallaka01" target="_blank" rel="noopener noreferrer">Visit my GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="wordmark" href="#home">FINN <span>//</span> HALLAKA<span class="brand-dot">.</span></a>
+    <span>© <span id="year">2026</span> Finn // Hallaka</span>
+    <a href="https://github.com/Hallaka01/Hallaka01.github.io" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+pre-commit:
+  commands:
+    quality-gate:
+      run: just check
+pre-push:
+  commands:
+    smoke-tests:
+      run: just test
