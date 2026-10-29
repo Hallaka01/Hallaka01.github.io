@@ -14,6 +14,8 @@ Buildless HTML, CSS, and a small deferred JavaScript file. Python provides local
 
 Critical content and links work without JavaScript. Enhancements honor reduced-motion preferences. Images have fixed dimensions and meaningful alternatives; missing images leave the associated text and links usable.
 
+The stable fragment destinations #work, #about, #ygo-scanner, and #hsmwmobil let profile and showcase links open the relevant content directly.
+
 ## Delivery
 
 Just is the universal command interface. Lefthook checks commits and pushes. GitHub Actions checks the site and publishes only the site directory through the official Pages actions. The GitHub profile and its existing repository remain separate.

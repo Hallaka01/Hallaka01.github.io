@@ -5,6 +5,7 @@
 - [x] T-03: Check content, accessibility, assets, and mobile and desktop behavior.
 - [x] T-04: Publish through GitHub Pages and verify the live site.
 - [x] T-05: Link the portfolio from the GitHub profile and record the final state.
+- [~] T-06: Add stable project anchors for direct links from the profile and project showcase.
 
 Validation: just check and four HTTP smoke tests passed. Browser checks covered desktop, narrow mobile (321 CSS pixels), image loading, section navigation, menu links, Escape/focus behavior, and the custom 404 page. No horizontal overflow was observed.
 
